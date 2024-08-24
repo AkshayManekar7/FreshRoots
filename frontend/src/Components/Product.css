@@ -1,0 +1,108 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 270px;
+  min-height: 375px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product_image {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.product_info {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.product_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product_price {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.currency {
+  font-weight: bold;
+  color: #333;
+}
+
+.price_value {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ff5722;
+}
+
+.price_unit {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.product_rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: #ffca28;
+  font-size: 1.2rem;
+  margin-right: 3px;
+}
+
+.product_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.product_buttons button {
+  flex: 1;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product_buttons button:hover {
+  transform: translateY(-2px);
+}
+
+.product_login_button {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.product_login_button:hover {
+  background-color: #444;
+}

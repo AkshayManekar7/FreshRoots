@@ -1,0 +1,63 @@
+/* General styles for the sidebar */
+.sidebar {
+  background-color: #2c3e50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  height: 100vh;
+  width: 250px; /* Fixed width */
+  padding-top: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Gill Sans", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.sidebar-list {
+  width: 100%;
+}
+
+.sidebar-row {
+  width: 100%;
+  margin: 10px 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-row:hover {
+  cursor: pointer;
+  background-color: #34495e;
+}
+
+.dashboard-title {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.dashboard-title .title-text,
+.dashboard-title .category-text {
+  margin-left: 10px;
+}
+
+.dashboard-title .search-icon {
+  margin-left: auto;
+  opacity: 0.7;
+}
+
+.dashboard-title:hover .title-text,
+.dashboard-title:hover .category-text {
+  color: #1abc9c;
+}
+
+.dashboard-title:hover .search-icon {
+  color: #1abc9c;
+}
+
+/* Ensure the main content is correctly positioned */
+

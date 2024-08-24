@@ -1,0 +1,122 @@
+/* Base container styling */
+.payment {
+  padding: 20px;
+}
+
+.payment .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Left column - Checkout Products */
+.payment_products {
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.payment_products h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Right column - Address and Payment Summary */
+.payment_section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Address block styling */
+.payment_address {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.payment_address h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.payment_address p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Payment summary block styling */
+.payment_summary h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.subtotal {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtotal p {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtotal strong {
+  font-size: 1.2rem;
+  color: #ff5722;
+}
+
+/* Pay Now button styling */
+.subtotal button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.subtotal button:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .payment_products {
+    border-right: none;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .payment_section {
+    padding: 15px;
+  }
+
+  .subtotal button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .payment_products h2 {
+    font-size: 1.3rem;
+  }
+
+  .payment_section h3 {
+    font-size: 1.1rem;
+  }
+
+  .subtotal button {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}

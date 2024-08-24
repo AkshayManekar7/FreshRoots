@@ -1,0 +1,76 @@
+/* Cart.css */
+.checkout {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f1f3f6;
+}
+
+.checkout_left {
+  flex: 0.7;
+  padding-left: 150px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.checkout_title {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.checkout_right {
+  flex: 0.3;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.subtotal_container {
+  margin-bottom: 10px;
+}
+
+.price_row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.price_total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+
+.price_savings {
+  color: #388e3c;
+  margin-top: 20px;
+}
+
+.discount {
+  color: #388e3c;
+}
+
+.place_order_btn {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.place_order_btn:hover {
+  background-color: #e64a19;
+}

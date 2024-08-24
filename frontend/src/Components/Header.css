@@ -1,0 +1,82 @@
+/* Navbar container */
+.nav-bar-bg {
+  background-color: #2c3e50;
+  padding: 10px 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 250px;
+  height: 70px;
+  width: 100%;
+}
+
+/* Brand logo */
+h1 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding: 40px;
+}
+
+
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 15px;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Badge (cart icon) */
+.nav-link .fa-cart-shopping {
+  font-size: 25px;
+  transition: transform 0.3s ease;
+}
+
+.nav-link .fa-cart-shopping:hover {
+  transform: scale(1.1);
+}
+
+/* Dropdown menu */
+.drop_down .dropdown-toggle {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.drop_down .dropdown-menu {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.dropdown-item {
+  color: #495057;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+/* Username display */
+.nav-link h4 {
+  color: #495057;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link h4:hover {
+  color: #007bff;
+}
